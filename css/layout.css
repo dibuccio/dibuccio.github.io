@@ -1,0 +1,198 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, font, img, dl, dt, dd, ol, ul, li, form, label, legend, table, tbody, tr, th, td {
+    border:0 none;
+    font-family:inherit;
+    font-size:100%;
+    font-style:inherit;
+    font-weight:inherit;
+    list-style:none outside none;
+    margin:0;
+    outline:medium none;
+    padding:0;
+    color: #48484C;
+}
+
+body {
+    font-family:  Arial,Tahoma,Helvetica,FreeSans,sans-serif;
+    font-size:13px;
+    line-height:18px;
+}
+
+.wrapper {
+    margin:0 auto;
+    padding:0;
+    max-width: 700px;
+
+}
+
+#header  {
+    background:none;/* repeat scroll 0 0 #2B2C30;*/
+    height:80px;
+}
+
+#header #title {
+    margin:16px 0 4px 0px;
+    font-size:24px;
+    line-height:28px;
+    letter-spacing:-2px;
+    color:#333333;
+}
+
+#header #nav {
+    padding-left: 4px;
+}
+
+#header .wrapper {
+    /*border-bottom: 1px dotted #BFBFBF;*/
+}
+
+.info a {
+    color: #48484C;
+    text-decoration: none;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+div {
+    display:block;
+    overflow:hidden;
+}
+
+h1, h2, h3, h4, h5 {
+    display:block;
+    font-weight:bold;
+}
+
+h2 a {
+    font-weight: normal;
+}
+
+h2 span.title-link{
+    font-weight: normal;
+}
+
+p {
+    padding-bottom: 7px;
+}
+
+a {
+    color: #1D46A6
+}
+
+a:hover {
+    color: #1D46A6;
+}
+
+ul {
+    
+}
+
+ul.publications {
+    max-width: 640px;
+    list-style: square;
+}
+
+ul.publications li {
+    margin:10px 0 10px 50px;
+    padding:2px;
+}
+
+#content .entry-name {
+    padding: 12px 0px 2px 0px;
+    border-bottom: 1px dotted #BFBFBF;
+    margin-bottom: 12px;
+    margin-top: 6px;
+    font-size:18px;
+    text-decoration:none;
+    font-weight: normal;
+}
+
+#content .entry-name h1 {
+    float: left;
+}
+
+#content .entry-name h2 {
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 2px;
+}
+
+#content .entry-content {
+    margin: 0px 0px 15px 10px;
+    max-width: 640px;
+}
+
+#content .entry-content h2 {
+    margin: 4px 0px 2px 0px;
+}
+
+#about-info{
+	max-width: 600px;
+	float: left;
+}
+
+#about-image {
+	max-width: 250px;
+	float: left;
+}
+
+#about-image img { 
+	width: 186px;
+ 	height: 225px;
+	padding:2px;
+	border: 1px solid #C2CCDC;
+	margin-right: 48px;
+}
+
+
+table.resume {
+    margin: 0px 0px 8px 0px;
+}
+
+td {
+
+}
+
+td.entry
+{
+    line-height: 21px;
+    color: #444444;
+}
+
+td.date
+{
+    width: 190px;
+    font-size: 11px;
+    vertical-align: top;
+    padding-top: 6px;
+}
+
+td.entry p {
+    font-size: 12px;
+}
+
+td.entry h2 {
+    font-size: 13px;
+}
+
+#footer {
+
+}
+
+#footer .wrapper {
+    text-align: right;
+    font-size: 9px;
+}
+
+#content .entry-content ul.research-interests {
+    list-style-type: circle;
+    margin-left: 6px;
+}
+
+#content .entry-content ul.research-interests li {
+    list-style-type: disc;
+    list-style-position: inside;
+    margin: 0 0 4px 0;
+}
